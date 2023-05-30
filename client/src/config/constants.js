@@ -23,10 +23,6 @@ export const UserTabs = [
 ];
 
 export const DecalTypes = {
-  logo: {
-    stateProperty: "logoDecal",
-    filterTab: "logoShirt",
-  },
   full: {
     stateProperty: "fullDecal",
     filterTab: "stylishShirt",

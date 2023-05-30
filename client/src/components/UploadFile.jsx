@@ -23,14 +23,8 @@ const UploadFile = ({ file, setFile, readFile }) => {
 
       <div className="mt-4 flex flex-wrap gap-3">
         <CustomButton 
-          type="outline"
-          title="Logo"
-          handleClick={() => readFile('logo')}
-          customStyles="text-xs"
-        />
-        <CustomButton 
           type="filled"
-          title="Full"
+          title="Upload"
           handleClick={() => readFile('full')}
           customStyles="text-xs"
         />
